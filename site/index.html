@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mitch Bartle</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Top nav (overlay on hero image) -->
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#">
+        <img src="img/MitchBartleTitleWhite.png" alt="Mitch Bartle" />
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link is-active" href="index.html">Home</a>
+        <a class="nav__link" href="work.html">Work</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="social">
+  <!-- TikTok -->
+  	<a
+    	class="social__icon"
+    	href="https://www.tiktok.com/@blandcartoons?lang=enE"
+    	target="_blank"
+    	rel="noopener"
+    	aria-label="TikTok"
+  	>
+    <img src="img/tiktok.svg.png" alt="" />
+  </a>
+
+  <!-- LinkedIn (IMPORTANT for studios) -->
+  <a
+    class="social__icon"
+    href="https://www.linkedin.com/in/mitch-bartle-443956171/"
+    target="_blank"
+    rel="noopener"
+    aria-label="LinkedIn"
+  >
+    <img src="img/linkedin.svg.png" alt="" />
+  </a>
+
+  <!-- YouTube (demo reel) -->
+  <a
+    class="social__icon"
+    href="https://www.youtube.com/@MitchBartle"
+    target="_blank"
+    rel="noopener"
+    aria-label="YouTube"
+  >
+    <img src="img/youtube.svg.png" alt="" />
+  </a>
+ <!-- YouTube (personal youtube channel) -->
+  <a
+    class="social__icon"
+    href="https://www.youtube.com/channel/UCZ-GVPq3A9U9lh7KOyWD_mw"
+    target="_blank"
+    rel="noopener"
+    aria-label="YouTube"
+  >
+    <img src="img/youtube.svg.png" alt="" />
+  </a>
+
+  <!-- X / Twitter (optional) -->
+  <a
+    class="social__icon"
+    href="https://x.com/BlandCartoons"
+    target="_blank"
+    rel="noopener"
+    aria-label="X"
+  >
+    <img src="img/x.svg.png" alt="" />
+  </a>
+
+  <!-- Instagram -->
+  <a
+    class="social__icon"
+    href="https://www.instagram.com/blandcartoons/"
+    target="_blank"
+    rel="noopener"
+    aria-label="Instagram"
+  >
+    <img src="img/instagram.svg.png" alt="" />
+  </a>
+</div>
+
+    </div>
+  </header>
+
+  <main class="page">
+
+    <!-- HERO VIDEO -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__bg">
+        <video class="hero__video" autoplay muted loop playsinline preload="auto">
+          <source src="img/2026_Demo_Reel_nointroutro.mp4" type="video/mp4">
+        </video>
+        <div class="hero__haze" aria-hidden="true"></div>
+		  
+		<img class="hero__logo" src="img/LogoMitchTitleWhiteBorder.png" alt="Mitch Bartle logo">
+
+      </div>
+
+      <!-- Diagonal cut overlay -->
+      <div class="hero__cut" aria-hidden="true"></div>
+    </section>
+
+    <!-- SLANTED DARK SECTION -->
+    <section class="slant">
+      <!-- IMPORTANT: flex column wrapper that pins footer to bottom -->
+      <div class="slant__layout">
+
+        <!-- IMPORTANT: keep content constrained to your wrap width -->
+        <div class="wrap">
+
+          <!-- wrap headline + bio so avatars can anchor to it -->
+          <div class="home-core">
+            <h1 class="headline">2D Animator - Freelancer</h1>
+
+            <div class="bio">
+              Kelowna-based animator available for freelance or studio work, from hands-on animation to leading teams on larger projects. I mainly work in Toon Boom Harmony and Adobe Animate, but I’m comfortable adapting to other tools depending on the project.<br>
+              <br>
+              Reach out if you’re interested in working together!
+            </div>
+
+            <!-- Desktop floating avatars -->
+            <div class="avatars avatars--desktop" aria-hidden="true">
+              <div class="avatars__left">
+                <img class="av av--l1" src="img/Sonic1.png" alt="">
+                <img class="av av--l2" src="img/Chris1.png" alt="">
+              </div>
+
+              <div class="avatars__right">
+                <img class="av av--r1" src="img/SpaceKingChestnut.png" alt="">
+                <img class="av av--r2" src="img/bird1.png" alt="">
+                <img class="av av--r3" src="img/summer1.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile avatar row + single centered -->
+          <div class="avatars avatars--mobile" aria-hidden="true">
+            <div class="avatars__row">
+              <img class="av" src="img/Sonic1.png" alt="">
+              <img class="av" src="img/Chris1.png" alt="">
+              <img class="av" src="img/SpaceKingChestnut.png" alt="">
+              <img class="av" src="img/bird1.png" alt="">
+            </div>
+            <img class="av av--center" src="img/summer1.png" alt="">
+			</div>
+        </div><!-- /.wrap -->
+
+        <!-- Footer sits OUTSIDE wrap but contains its own wrap for alignment -->
+        <footer id="contact" class="site-footer">
+          <div class="wrap site-footer__inner">
+            <div class="site-footer__left">
+              <div class="site-footer__name">Mitch Bartle</div>
+            </div>
+
+            <div class="site-footer__right contact-highlight">
+              <div class="site-footer__label">Contact:</div>
+              <a class="site-footer__email" href="mailto:mitchell.bartle@gmail.com">
+                mitchell.bartle@gmail.com
+              </a>
+            </div>
+          </div>
+        </footer>
+
+      </div><!-- /.slant__layout -->
+    </section>
+
+  </main>
+</body>
+</html>
